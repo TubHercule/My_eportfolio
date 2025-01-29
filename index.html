@@ -62,7 +62,7 @@
 
     <header>
         <div class="container">
-            <h1>Eportfolio</h1>
+            <h1>eportfolio</h1>
             <button onclick="switchTab('accueil')">Welcome</button>
             <button onclick="switchTab('engineering')">Engineering course</button>
             <button onclick="switchTab('mobility')">International Mobility</button>
@@ -72,49 +72,92 @@
         </div>
     </header>
 
-    <main id="accueil" class="active">
-        <h2>Welcome</h2>
-        
+    <main id="accueil" class="active" style="text-align: center;">
+        <h2 style="font-size: 2.5em; color: #4CAF50;">Welcome to My Eportfolio</h2>
+        <p style="font-size: 1.2em; color: #555; margin: 20px 0;">
+            Hi there! I'm Jérémie Crosnier. Explore my journey, my professional growth, and my experiences here.
+        </p>
+
+        <div>
+            <h3 style="font-size: 1.5em; margin-bottom: 10px;">- C.V.</h3>
+            <a href="my_CV_in_english.pdf" download="CV_Jeremie_Crosnier_in_English.pdf" style="color: #4CAF50; font-weight: bold; text-decoration: none; display: block; margin-bottom: 5px;">📄 My CV in English (PDF)</a>
+            <a href="my_CV_in_french.pdf" download="CV_Jeremie_Crosnier_in_French.pdf" style="color: #4CAF50; font-weight: bold; text-decoration: none;">📄 My CV in French (PDF)</a>
+        </div>
+        <div style="margin: 30px 0;">
+            <h3 style="font-size: 1.5em; margin-bottom: 10px;">- LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/jérémie-crosnier-1a8a88330/fr/" style="text-decoration: none; color: #4CAF50; font-weight: bold;">
+                Visit My LinkedIn Page
+            </a>
+        </div>
+        <!--
+        <div style="margin: 20px auto; max-width: 480px;"> 
+            <h3 style="font-size: 1.5em; margin-bottom: 10px;">- About me</h3>
+            <video width="100%" height="auto" controls style="border-radius: 10px; box-shadow: 0px 4px 6px rgba(0,0,0,0.2);">
+                <source src="video_test.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div> -->
+
+
         <br><br><br><br><br><br>
     </main>
 
     <main id="engineering">
-        <h2>Engineering course</h2>
+        <h2 style="font-size: 2.5em; color: #4CAF50; text-align: center; margin-bottom: 20px;">Engineering Course</h2>
+        <section style="margin: 20px auto; max-width: 800px; text-align: center;">
+            <p style="font-size: 1.2em; color: #555; line-height: 1.6;">
+                I'm studying in the digital sciences department at ENSEEIHT.
+            </p>
+        </section>
     </main>
 
     <main id="mobility">
-        <h2>International Mobility</h2>
+        <h2 style="font-size: 2.5em; color: #4CAF50; text-align: center; margin-bottom: 20px;">International Mobility</h2>
+        <section style="margin: 20px auto; max-width: 800px; text-align: center;">
+            <p style="font-size: 1.2em; color: #555; line-height: 1.6;">
+                The United States, Canada and Germany are countries in which I would be interested in carrying out an international mobility project.
+            </p>
+        </section>
     </main>
 
     <main id="sustainability">
-        <h2>Sustainability & Civic Engagement</h2>
+        <h2 style="font-size: 2.5em; color: #4CAF50; text-align: center; margin-bottom: 20px;">Sustainability & Civic Engagement</h2>
+        <section style="margin: 20px auto; max-width: 800px; text-align: center;">
+            <h3 style="font-size: 1.8em; color: #333;">Green Evolution</h3>
+            <a href="green_evolution.pdf" download="green_evolution.pdf" style="color: #4CAF50; font-weight: bold; text-decoration: none; display: block; margin-bottom: 5px;">A copy of our group poster(PDF)</a>
+
+        </section>
     </main>
 
+
     <main id="activities">
-        <h2>Sport & other activities</h2>
+        <h2 style="font-size: 2.5em; color: #4CAF50; text-align: center; margin-bottom: 20px;">Sport & Other Activities</h2>
+        
+        <section style="margin: 20px auto; max-width: 800px; text-align: center;">
+            <h3 style="font-size: 1.8em; color: #333;">Basketball</h3>
+            <p style="font-size: 1.2em; color: #555; line-height: 1.6;">
+                I played basketball for 9 years. Being part of a team taught me the joy of collaboration, 
+                self-improvement, and working towards a common goal. This experience not only helped me grow as an individual 
+                but also taught me valuable lessons about teamwork and perseverance.
+            </p>
+            <img src="basket-cover.jpg" alt="Playing basketball" style="width: 80%; max-width: 400px; border-radius: 15px; box-shadow: 0px 4px 6px rgba(0,0,0,0.2); margin: 20px 0;">
+        </section>
+
+        <section style="margin: 40px auto; max-width: 800px; text-align: center;">
+            <h3 style="font-size: 1.8em; color: #333;">Game Development</h3>
+            <p style="font-size: 1.2em; color: #555; line-height: 1.6;">
+                I also enjoy creating small video games with my friends during Game Jams. 
+                These events are always incredibly enriching, allowing me to learn, grow, 
+                and explore the fascinating world of video game development. Collaborating under time constraints 
+                sharpens my creativity and problem-solving skills, making each project a unique challenge and a rewarding experience.
+            </p>
+            <img src="game_jam.png" alt="Game development" style="width: 80%; max-width: 400px; border-radius: 15px; box-shadow: 0px 4px 6px rgba(0,0,0,0.2); margin: 20px 0;">
+        </section>
     </main>
 
     <main id="career">
-        <h2>Career Development</h2>
-        <div>
-            <h3>- C.V.</h3>
-            <a href="my_CV_in_english.pdf" download="CV_Jeremie_Crosnier_in_english.pdf">My CV in english (PDF)</a><br>
-            <a href="my_CV_in_french.pdf" download="CV_Jeremie_Crosnier_in_french.pdf">My CV in french (PDF)</a>
-        </div>
-        <div>
-            <h3>- LinkedIn</h3>
-            <a href="https://www.linkedin.com/in/jérémie-crosnier-1a8a88330/fr/">
-                <!--<img src="frame.png" alt="LinkedIn" /><br>-->My LinkedIn page
-            </a>
-        </div>
-        <div>
-            <h3>- About me</h3>
-            <video width="640" height="360" controls>
-                <source src="video_test.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <br><br><br><br><br><br>
+        <h2 style="font-size: 2.5em; color: #4CAF50; text-align: center; margin-bottom: 20px;">Career Development</h2>
+        
     </main>
 
     <footer>
